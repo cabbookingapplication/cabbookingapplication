@@ -1,0 +1,15 @@
+2023-02-02 23:02:20.428  INFO 4352 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN66006981 with PID 4352 (C:\My SpringBoot Works\CabBookingApplication\bin\main started by BMAKIRED in C:\My SpringBoot Works\CabBookingApplication)
+2023-02-02 23:02:20.430  INFO 4352 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-02 23:02:23.010  INFO 4352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-02 23:02:23.011  INFO 4352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-02 23:02:23.143  INFO 4352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-02 23:02:23.486  INFO 4352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-02 23:02:23.603  INFO 4352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-02 23:02:23.905  INFO 4352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-02 23:02:24.130  INFO 4352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-02 23:02:24.470  INFO 4352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-02 23:02:24.506  INFO 4352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-02 23:02:25.769  INFO 4352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-02 23:02:25.799  INFO 4352 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-02 23:02:26.632  WARN 4352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-02 23:02:27.449  INFO 4352 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 7.657 seconds (JVM running for 8.374)
