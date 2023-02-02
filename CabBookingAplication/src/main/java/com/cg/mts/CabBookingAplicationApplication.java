@@ -1,13 +1,13 @@
-package com.training.abc;
+package com.cg.mts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CabBookingApplication {
+public class CabBookingAplicationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CabBookingApplication.class, args);
+		SpringApplication.run(CabBookingAplicationApplication.class, args);
 	}
 
 }
