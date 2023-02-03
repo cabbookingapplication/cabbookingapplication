@@ -1,0 +1,11 @@
+{
+"licenceNo":"abc7891",
+"rating":4.5,
+"nativeLanguage":"Tamil",
+"experience": 3,
+"cab":{
+	"cabId":2000,
+	"carType":"cab",
+	"perKmRate":100
+}
+}
