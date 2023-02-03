@@ -1,4 +1,6 @@
 package com.cg.mts.service.Cab;
+import com.cg.mts.repository.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -13,7 +15,8 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.cg.mts.entities.Cab;
-import com.cg.mts.repository.Cab.ICabRepository;
+import com.cg.mts.repository.ICabRepository;
+import com.cg.mts.service.CabServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 

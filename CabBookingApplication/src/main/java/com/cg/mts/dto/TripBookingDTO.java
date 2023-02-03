@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CabDTODefaultResponse {
+public class TripBookingDTO {
 
-	private int cabId;
-	private String carType;
-	private float perKmRate;
+	private String fromLocation;
+	private String toLocation;
+	private float distanceInKm;
 
 }

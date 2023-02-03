@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.cg.mts.dto.CabDTODefaultResponse;
 import com.cg.mts.entities.Cab;
-import com.cg.mts.exception.CabNotFoundException;
-import com.cg.mts.service.Cab.ICabService;
+import com.cg.mts.exception.InvalidCabException;
+import com.cg.mts.service.ICabService;
 import com.cg.mts.util.CabDTOConvertor;
 
 import java.util.List;;
@@ -25,71 +25,50 @@ import java.util.List;;
 @RestController
 @RequestMapping("/api/cab")
 public class CabController {
-	
+
 	@Autowired
 	private ICabService iCabService;
-	
-	
-	
+
 	@Autowired
 	CabDTOConvertor dtoConvertor;
-	
-	
-	
+
 	@GetMapping("/list")
-	public ResponseEntity<List<CabDTODefaultResponse>> getAllStud()
-	{
+	public ResponseEntity<List<CabDTODefaultResponse>> getAllStud() {
 		List<Cab> allCabsInDB = iCabService.getAllCab();
-		
+
 		List<CabDTODefaultResponse> dtoList = new ArrayList<>();
 		for (Cab cab : allCabsInDB) {
-			
+
 			CabDTODefaultResponse dtoObj = dtoConvertor.convertTo(cab);
 			dtoList.add(dtoObj);
 		}
-		
-		return new ResponseEntity<List<CabDTODefaultResponse>>(dtoList,HttpStatus.OK);
+
+		return new ResponseEntity<List<CabDTODefaultResponse>>(dtoList, HttpStatus.OK);
 	}
-	
 
 	@PostMapping("/insertcab")
-	public Cab insertCab( @RequestBody Cab cab) {
+	public Cab insertCab(@RequestBody Cab cab) throws Exception {
 		return iCabService.insertCab(cab);
 	}
 
-	/*@PutMapping("/updatecab/{cabId}/price/{perKmRate}")
-	public <CabDTODefaultResponse>  Cab updateCab( @RequestBody Cab cab, @PathVariable int cabId, @PathVariable int perKmRate) {
-		
-		return iCabService.updateCab(cab, cabId, perKmRate);
-	}*/
-	
 	@PutMapping("/updatecab/{cabId}/price/{perKmRate}")
-	public String updateCabWithperKmRate(@RequestBody Cab cab, @PathVariable int cabId, @PathVariable int perKmRate)
-	{
+	public String updateCabWithperKmRate(@RequestBody Cab cab, @PathVariable int cabId, @PathVariable int perKmRate) {
 		Cab updateCab = iCabService.updateCab(cab, perKmRate);
-		
-		if(updateCab() != null)
-		{
+
+		if (updateCab() != null) {
 			return updateCab.toString();
 		}
-		return "Updated : - "+updateCab.toString()+" ";
+		return "Updated : - " + updateCab.toString() + " ";
 	}
 
 	private Object updateCab() {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
+
 	@DeleteMapping("/{cabId}")
-	public void removeCab(@PathVariable int cabId) throws CabNotFoundException {
+	public void DeleteCabbyId(@PathVariable int cabId) {
 		iCabService.DeleteCabbycabId(cabId);
 	}
-	
-	
-	
-	
-	
-	}
 
-
+}

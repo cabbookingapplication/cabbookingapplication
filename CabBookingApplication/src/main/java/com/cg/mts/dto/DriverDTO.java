@@ -5,12 +5,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class CabDTODefaultResponse {
+@NoArgsConstructor
+public class DriverDTO {
 
-	private int cabId;
-	private String carType;
-	private float perKmRate;
+	int driverId;
+	String licenceNo;
+	float rating;
+	String nativeLanguage;
+	int experience;
 
 }
