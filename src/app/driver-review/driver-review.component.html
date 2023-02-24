@@ -1,0 +1,55 @@
+<div class="bg-img">
+
+
+    <form (ngSubmit)="onSubmit()" #driverreviewForm="ngForm">
+      <h1>Driver Review Form</h1>
+
+
+      <tr>
+      <div class="form-group">
+        <label for="driverName">Driver Name</label>
+        <input type="text" class="form-control" id="driverName" name="driverName"
+               [(ngModel)]="model.driverName" placeholder="Enter DriverName e.g Abc" required>
+
+      </div>
+    </tr>
+    <br><br>
+
+    <tr>
+      <div class="form-group">
+        <label for="starRating">StarRating</label>
+        <div class="star-rating">
+          <span class="star" [class.filled]="model.starRating >= 1" (click)="model.starRating = 1">&#9733;</span>
+          <span class="star" [class.filled]="model.starRating >= 2" (click)="model.starRating= 2">&#9733;</span>
+          <span class="star" [class.filled]="model.starRating >= 3" (click)="model.starRating = 3">&#9733;</span>
+          <span class="star" [class.filled]="model.starRating >= 4" (click)="model.starRating = 4">&#9733;</span>
+          <span class="star" [class.filled]="model.starRating>= 5" (click)="model.starRating= 5">&#9733;</span>
+        </div>
+      </div>
+
+    </tr>
+    <br><br>
+    <tr>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message"
+        [(ngModel)]="model.message" placeholder="Enter Message e.g Good"></textarea>
+
+        
+      </div>
+    </tr>
+    <br><br>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+    <div *ngIf="status == true" class="alert alert-success mt-3">Your review has been submitted successfully.</div>
+    <div *ngIf="status == false" class="alert alert-danger mt-3">An error occurred while submitting your review.</div>
+
+    
+ 
+
+
+
