@@ -1,0 +1,161 @@
+2023-02-26 09:39:57.799  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=9h19s471ms875µs300ns).
+2023-02-26 11:30:52.609  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=1h50m54s810ms361µs100ns).
+2023-02-26 12:26:38.051  INFO 15744 --- [http-nio-2004-exec-8] c.c.m.c.TripBookingRestController        :  --->> Trip saved TripBooking(tripBookingId=15, user=User(userId=6, firstName=Mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=Female, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002)), driver=Driver(driverId=7, licenceNo=abd133, rating=3.5, nativeLanguage=Telugu, experience=4, cab=null), fromLocation=a, toLocation=f, fromDateTime=24/2/2023,12.30, toDateTime=24/2/2023,1.30, status=true, distanceInKm=8.0, cabType=null, bill=100.0)
+2023-02-26 12:49:08.159  INFO 15744 --- [http-nio-2004-exec-1] c.c.m.c.TripBookingRestController        :  --->> Trip saved TripBooking(tripBookingId=16, user=User(userId=6, firstName=Mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=Female, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002)), driver=Driver(driverId=7, licenceNo=abd133, rating=3.5, nativeLanguage=Telugu, experience=4, cab=null), fromLocation=whitefield, toLocation=b, fromDateTime=24/2/2023,12.30, toDateTime=24/2/2023,1.30, status=true, distanceInKm=8.0, cabType=null, bill=100.0)
+2023-02-26 12:50:05.346  INFO 15744 --- [http-nio-2004-exec-3] c.c.m.c.TripBookingRestController        :  --->> Trip saved TripBooking(tripBookingId=17, user=User(userId=6, firstName=Mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=Female, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002)), driver=Driver(driverId=7, licenceNo=abd133, rating=3.5, nativeLanguage=Telugu, experience=4, cab=null), fromLocation=abc, toLocation=Madhapur, fromDateTime=24/2/2023,12.30, toDateTime=24/2/2023,1.30, status=true, distanceInKm=8.0, cabType=null, bill=100.0)
+2023-02-26 12:52:13.472  INFO 15744 --- [http-nio-2004-exec-6] c.c.m.c.TripBookingRestController        :  --->> Trip saved TripBooking(tripBookingId=18, user=User(userId=6, firstName=Mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=Female, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002)), driver=Driver(driverId=7, licenceNo=abd133, rating=3.5, nativeLanguage=Telugu, experience=4, cab=null), fromLocation=s, toLocation=q, fromDateTime=24/2/2023,12.30, toDateTime=24/2/2023,1.30, status=true, distanceInKm=8.0, cabType=null, bill=100.0)
+2023-02-26 12:57:31.183  INFO 15744 --- [http-nio-2004-exec-10] c.c.m.c.TripBookingRestController        :  --->> Trip saved TripBooking(tripBookingId=19, user=User(userId=6, firstName=Mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=Female, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002)), driver=Driver(driverId=7, licenceNo=abd133, rating=3.5, nativeLanguage=Telugu, experience=4, cab=null), fromLocation=majestic, toLocation=b, fromDateTime=24/2/2023,12.30, toDateTime=24/2/2023,1.30, status=true, distanceInKm=8.0, cabType=null, bill=100.0)
+2023-02-26 14:26:36.163  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=26m17s444ms381µs200ns).
+2023-02-26 15:20:35.528  WARN 15744 --- [http-nio-2004-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "NaN"]
+2023-02-26 16:12:43.197  INFO 15744 --- [http-nio-2004-exec-2] c.c.m.c.TripBookingRestController        :  --->> Trip saved TripBooking(tripBookingId=21, user=User(userId=6, firstName=Mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=Female, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002)), driver=Driver(driverId=7, licenceNo=abd133, rating=3.5, nativeLanguage=Telugu, experience=4, cab=null), fromLocation=MGroad, toLocation=Dilshuknagar, fromDateTime=24/2/2023,12.30, toDateTime=24/2/2023,1.30, status=true, distanceInKm=8.0, cabType=null, bill=100.0)
+2023-02-26 16:15:08.242  INFO 15744 --- [http-nio-2004-exec-8] c.c.m.controller.DriverReviewController  : Adding reviews
+2023-02-26 16:35:57.656  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=49s210ms20µs100ns).
+2023-02-26 16:40:28.389  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=4m724ms911µs700ns).
+2023-02-26 18:35:08.755  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=1h53m40s365ms966µs100ns).
+2023-02-26 18:36:04.755  WARN 15744 --- [HikariPool-25 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=55s995ms542µs200ns).
+2023-02-26 18:41:12.056  INFO 15744 --- [http-nio-2004-exec-1] com.cg.mts.controller.UserController     : ----> User Saved <----User(userId=23, firstName=hari, lastName=Gupta, password=hari@123, phoneNumber=9123786738, gender=male, emailId=Shree@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002))
+2023-02-26 19:03:47.832  WARN 15744 --- [http-nio-2004-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.persistence.EntityNotFoundException: Unable to find com.cg.mts.entities.Cab with id 5]
+2023-02-26 20:01:07.988  INFO 15744 --- [Thread-99] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:01:07.990  INFO 15744 --- [Thread-99] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-26 20:01:08.003  INFO 15744 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2023-02-26 20:01:08.009  INFO 15744 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2023-02-26 20:01:08.223  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:01:08.224  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:01:08.537  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:01:08.538  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:01:08.559  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:01:08.583  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:01:08.588  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2023-02-26 20:01:08.757  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2023-02-26 20:01:08.757  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:01:08.885  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:01:08.985  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:01:09.010  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:01:09.027  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:01:09.058  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:01:09.068  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:01:09.127  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.957 seconds (JVM running for 121021.123)
+2023-02-26 20:01:28.148  INFO 15744 --- [http-nio-2004-exec-2] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-26 20:01:28.164  INFO 15744 --- [http-nio-2004-exec-2] com.cg.mts.controller.UserController     : ----> User Saved <----User(userId=1, firstName=hari, lastName=Gupta, password=hari@123, phoneNumber=9123786738, gender=male, emailId=hari@gmail.com, userRole=user, address=Address(address=LMN Society-ASD Road-Mumbai, state=Telangana, city=Hyderabad, pincode=400002))
+2023-02-26 20:02:03.539  INFO 15744 --- [http-nio-2004-exec-3] com.cg.mts.controller.UserController     : ----> User Saved <----User(userId=2, firstName=mahesh, lastName=Gupta, password=mahesh@123, phoneNumber=9123786738, gender=male, emailId=mahesh@gmail.com, userRole=user, address=Address(address=LB Nagar, state=Telangana, city=Hyderabad, pincode=400002))
+2023-02-26 20:02:33.601  INFO 15744 --- [http-nio-2004-exec-4] com.cg.mts.controller.UserController     : ----> User Saved <----User(userId=3, firstName=Siri, lastName=Gupta, password=siri@123, phoneNumber=9123786738, gender=female, emailId=siri@gmail.com, userRole=user, address=Address(address=LB Nagar, state=Telangana, city=Hyderabad, pincode=400002))
+2023-02-26 20:03:45.443  INFO 15744 --- [Thread-103] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:03:45.444  INFO 15744 --- [Thread-103] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-26 20:03:45.447  INFO 15744 --- [Thread-103] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
+2023-02-26 20:03:45.449  INFO 15744 --- [Thread-103] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
+2023-02-26 20:03:45.548  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:03:45.548  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:03:45.731  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:03:45.732  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:03:45.750  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:03:45.773  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:03:45.778  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2023-02-26 20:03:45.949  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Start completed.
+2023-02-26 20:03:45.950  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:03:46.040  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:03:46.086  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:03:46.115  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:03:46.134  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:03:46.169  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:03:46.178  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:03:46.255  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.729 seconds (JVM running for 121178.25)
+2023-02-26 20:04:12.768  INFO 15744 --- [Thread-107] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:04:12.774  INFO 15744 --- [Thread-107] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
+2023-02-26 20:04:12.778  INFO 15744 --- [Thread-107] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
+2023-02-26 20:04:12.899  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:04:12.900  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:04:13.064  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:04:13.064  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:04:13.080  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:04:13.098  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:04:13.102  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
+2023-02-26 20:04:13.167  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
+2023-02-26 20:04:13.167  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:04:13.267  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:04:13.309  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:04:13.322  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:04:13.343  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:04:13.372  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:04:13.379  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:04:13.433  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.552 seconds (JVM running for 121205.429)
+2023-02-26 20:05:36.589  INFO 15744 --- [Thread-111] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:05:36.596  INFO 15744 --- [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
+2023-02-26 20:05:36.599  INFO 15744 --- [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
+2023-02-26 20:05:36.723  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:05:36.723  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:05:36.891  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:05:36.891  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:05:36.907  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:05:36.927  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:05:36.930  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
+2023-02-26 20:05:36.994  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
+2023-02-26 20:05:36.994  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:05:37.073  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:05:37.119  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:05:37.138  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:05:37.155  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:05:37.194  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:05:37.207  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:05:37.290  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.586 seconds (JVM running for 121289.285)
+2023-02-26 20:05:48.198  INFO 15744 --- [Thread-115] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:05:48.203  INFO 15744 --- [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown initiated...
+2023-02-26 20:05:48.208  INFO 15744 --- [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown completed.
+2023-02-26 20:05:48.379  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:05:48.379  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:05:48.616  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:05:48.616  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:05:48.633  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:05:48.651  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:05:48.654  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Starting...
+2023-02-26 20:05:48.812  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Start completed.
+2023-02-26 20:05:48.812  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:05:48.897  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:05:48.953  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:05:48.976  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:05:48.994  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:05:49.030  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:05:49.042  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:05:49.113  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.774 seconds (JVM running for 121301.107)
+2023-02-26 20:06:42.109  INFO 15744 --- [http-nio-2004-exec-2] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-26 20:32:42.370  INFO 15744 --- [Thread-119] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:32:42.371  INFO 15744 --- [Thread-119] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-26 20:32:42.373  INFO 15744 --- [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown initiated...
+2023-02-26 20:32:42.375  INFO 15744 --- [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown completed.
+2023-02-26 20:32:42.439  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:32:42.440  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:32:42.564  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:32:42.565  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:32:42.577  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:32:42.593  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:32:42.596  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Starting...
+2023-02-26 20:32:42.652  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Start completed.
+2023-02-26 20:32:42.652  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:32:42.716  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:32:42.741  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:32:42.758  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:32:42.773  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:32:42.806  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:32:42.815  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:32:42.868  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.441 seconds (JVM running for 122914.858)
+2023-02-26 20:32:47.439  INFO 15744 --- [Thread-123] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-26 20:32:47.442  INFO 15744 --- [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown initiated...
+2023-02-26 20:32:47.443  INFO 15744 --- [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown completed.
+2023-02-26 20:32:47.511  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Starting CabBookingApplication using Java 17.0.5 on LIN33002567 with PID 15744 (C:\MySpringBootWork\CabBookingApplication\bin\main started by CHIDSRI in C:\MySpringBootWork\CabBookingApplication)
+2023-02-26 20:32:47.511  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-26 20:32:47.644  INFO 15744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-26 20:32:47.644  INFO 15744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-26 20:32:47.659  INFO 15744 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-26 20:32:47.676  INFO 15744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-26 20:32:47.678  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Starting...
+2023-02-26 20:32:47.842  INFO 15744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Start completed.
+2023-02-26 20:32:47.842  INFO 15744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-26 20:32:47.912  INFO 15744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-26 20:32:47.945  INFO 15744 --- [restartedMain] com.cg.mts.controller.DriverController   : Driver Controller called
+2023-02-26 20:32:47.959  INFO 15744 --- [restartedMain] c.c.m.controller.DriverReviewController  :  Review Rest Controller Called
+2023-02-26 20:32:47.979  INFO 15744 --- [restartedMain] c.c.m.c.TripBookingRestController        : Trip booking Rest Controller called
+2023-02-26 20:32:48.000  INFO 15744 --- [restartedMain] com.cg.mts.controller.UserController     : User Controller Called
+2023-02-26 20:32:48.006  WARN 15744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-26 20:32:48.058  INFO 15744 --- [restartedMain] com.cg.mts.CabBookingApplication         : Started CabBookingApplication in 0.561 seconds (JVM running for 122920.048)
+2023-02-26 20:33:01.143  INFO 15744 --- [http-nio-2004-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-26 20:45:36.402  WARN 15744 --- [HikariPool-32 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-32 - Thread starvation or clock leap detected (housekeeper delta=1m18s286ms916µs700ns).
+2023-02-26 21:07:22.416  WARN 15744 --- [HikariPool-32 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-32 - Thread starvation or clock leap detected (housekeeper delta=21m16s11ms338µs700ns).
