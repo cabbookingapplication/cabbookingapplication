@@ -1,0 +1,27 @@
+<h1> Update Cab </h1>
+    
+    <form (ngSubmit)="onSubmit()" #updatecab="ngForm">
+      <tr>
+      <div class="form-group">
+        <label for="cabId">Cab Id</label>
+        <input type="text" class="form-control" id="cabId" name="cabId"
+               [(ngModel)]="model.cabId" placeholder="Enter the CabId for which perkmrate need to be updated" required>
+        
+      </div>
+    </tr>
+    <br><br>
+
+    <tr>
+        <div class="form-group">
+          <label for="perKmRate">per Kilometer rate</label>
+          <input type="text" class="form-control" id="perKmRate" name="perKmRate"
+                 [(ngModel)]="model.perKmRate" placeholder="Enter the per Kilometer Rate" required>
+          
+        </div>
+      </tr>
+      <br><br>
+      <button type="submit" class="btn btn-primary" click="onSubmit()">Update Cab</button>
+    </form>
+    <div *ngIf="status == true" class="alert alert-success mt-3">Cab Updated Successfully</div>
+    <div *ngIf="status == false" class="alert alert-danger mt-3">Cab Was Not Updated</div>
+

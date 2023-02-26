@@ -1,0 +1,41 @@
+<div class="bg-img">
+<h1>Add Cab</h1>
+    <form (ngSubmit)="onSubmit()" #addcab="ngForm">
+      <tr>
+      <div class="form-group">
+        <label for="carType" >Car Type</label>
+        <input type="text" class="form-control" id="carType" name="carType"
+               [(ngModel)]="model.carType" placeholder="Enter CabType Eg: Micro/Mini/Bike" required>
+        
+      </div>
+    </tr>
+    <br><br>
+
+    
+    
+    
+      <tr>
+      <div class="form-group">
+        <label for="perKmRate">Per KM Rate</label>
+        <input type="text" class="form-control" id="perKmRate" name="perKmRate"
+               [(ngModel)]="model.perKmRate" placeholder="Enter per kilometer rate" required>
+        
+      </div>
+    </tr>
+    <br><br>
+
+    <tr>
+        <div class="form-group">
+          <label for="cityName">Add City</label>
+          <input type="text" class="form-control" id="cityName" name="cityName"
+                 [(ngModel)]="model.cityName" placeholder="Enter the city of cab" required>
+          
+        </div>
+      </tr>
+      <br><br>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+    <div *ngIf="status == true" class="alert alert-success mt-3">Cab Added Successfully</div>
+    <div *ngIf="status == false" class="alert alert-danger mt-3">Cab Was Not Added</div>

@@ -1,0 +1,39 @@
+<div>
+    <table style="width: 60%;">
+       <tr>
+         <td style="width: 20%;"> <input type="text" #userId>
+            <button (click)="getAlltripsByUser(userId.value)">Load by userId</button></td>
+       </tr>
+       </table>
+    
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div *ngFor="let x of alltrips">
+                <div class="card">
+                    <h5 class="card-header">TripBooking Id - {{x.tripId}}</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Driver Details</h5>
+                        Driver Id : {{x.driverId}}<br />
+                        Driver LicenceNo : {{x.licenceNo}}<br />
+                        Driver Language : {{x.nativeLanguage}}
+                        <h5 class="card-title">User Details</h5>
+                        Source : {{x.fromLocation}}<br />
+                        Destination : {{x.toLocation}}<br />
+                        Bill : {{x.totalbillAmount}}
+                        <td><button (click)="goTo()">Review</button></td>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+   
+   
+       
+       
+   
+   
+   

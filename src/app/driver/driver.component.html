@@ -1,0 +1,105 @@
+
+<div class="bg-img">
+<h1> Driver Details </h1>
+    
+    <form (ngSubmit)="onSubmit()" #bookingDetailsForm="ngForm">
+      <tr>
+        <div class="form-group"> 
+          <label>Driver Name</label>
+          <input type="text" [(ngModel)]="c.driverName" class="form-control" id="cname" name="cname"
+              #driverName="ngModel" placeholder="Enter Driver Name" required pattern="[a-zA-Z]+">
+          <div *ngIf="driverName.invalid">
+              <span style="color: red;" *ngIf="driverName.errors?.['required']">
+                  Driver Name is required
+              </span>
+              <span style="color: red;" *ngIf="driverName.errors?.['pattern']">
+                  Driver Name is not valid
+                </span>
+          </div>
+      </div>
+    </tr>
+    <br>
+    <tr>
+      <div class="form-group">
+        <label for="licenceNo">Licence Number</label>
+       <input type="text" class="form-control" id="licenceNo" name="licenceNo"
+              [(ngModel)]="c.licenceNo" placeholder="Enter Licence Number"  #licenceNo="ngModel" required pattern="[a-zA-Z]+[0-9]+" >
+         <div *ngIf="licenceNo.invalid">
+             <span style="color: red;" *ngIf="licenceNo.errors?.['required']">
+              Licence Number should be in Correct Format
+             </span>
+             <span style="color: red;" *ngIf="licenceNo.errors?.['pattern']">
+              Licence Number is not valid.
+             </span>
+           </div>
+     </div>
+      </tr>
+    <br>
+     <div class="form-group">
+                     <label for="rating">Rating</label>
+                    <input type="number" class="form-control" id="rating" name="rating"
+                           [(ngModel)]="c.rating" placeholder="Enter Rating"  #rating="ngModel" required pattern="[0-5] || [0.0-5.0]+">
+                      <div *ngIf="rating.invalid">
+                          <span style="color: red;" *ngIf="rating.errors?.['required']">
+                             Please Enter Valid Rating
+                          </span>
+                          <span style="color: red;" *ngIf="rating.errors?.['pattern']">
+                            Rating is not valid.
+                          </span>
+                        </div>
+                  </div>
+    <br>
+    <tr>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <input type="text" class="form-control" id="category" name="category"
+                 [(ngModel)]="c.category" placeholder=" Eg: Micro/Prime/Rental/Women's" required>
+        </div>
+      </tr>
+       <br>
+
+    <tr>
+        <div class="form-group">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city" name="city"
+          [(ngModel)]="c.city" placeholder=" Eg: Chennai,Mumbai,Bangalore" required>
+                    
+        </div>
+      </tr>
+      <br>
+      <tr>
+        <div class="form-group">
+          <label for="experience">Experience</label>
+          <input type="text" class="form-control" id="experience" name="experience"
+                 [(ngModel)]="c.experience" placeholder="Experience of Driver"  #experience="ngModel" required pattern="[0-9]+">    
+            <div *ngIf="experience.invalid">
+                <span style="color: red;" *ngIf="experience.errors?.['required']">
+                 Enter Valid Experience
+                </span>
+                <span style="color: red;" *ngIf="experience.errors?.['pattern']">
+                  Experience is not valid.
+                </span>
+
+            </div>
+          
+        </div>
+      </tr>
+      <br>
+      <tr>
+          <div class="form-group">
+            <label for="nativeLanguage">Native Language</label>
+            <input type="text" class="form-control" id="nativeLanguage"  #nativeLanguage="ngModel" name="nativeLanguage"
+            [(ngModel)]="c.nativeLanguage" required>
+            <div *ngIf="nativeLanguage.invalid">
+              <span style="color: red;" *ngIf="nativeLanguage.errors?.['required']">
+               Native Language is Required
+              </span>
+            </div>      
+          </div>
+        </tr>
+        <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+    <div *ngIf="status == true" class="alert alert-success mt-3">Your details has been submitted successfully.</div>
+    

@@ -1,0 +1,101 @@
+<table>
+    <tr>
+        <td>
+            City Name
+            
+            <select #cityName (change)="getCabsByCityName(cityName.value)">
+                <option value="" disabled selected>Load All Cabs</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+        </td>
+        <tr><hr><hr> 
+        <td>
+
+            
+            <input type="text"#searchId>
+            <button (click)="getCabById(searchId.value)"> Search Cab</button>
+            <table style="width: 100%;">
+                <tr>
+                   
+                    <td>
+                        <h2 style="color: rgb(2, 2, 2); font-style: italic;">{{cab.cityName}}</h2><hr />
+                        <div>Cab Id : {{cab.cabId}}</div>
+                        <div>Cab Type: {{cab.carType}}</div>
+                        <div>Per Km Rate: {{cab.perKmRate}}</div>
+                        <div>City Name: {{cab.cityName}}</div>
+        
+                    </td>
+                </tr>
+            </table>
+            
+
+
+
+        </td>
+    </tr>
+</table>
+
+<div *ngFor="let cab of allCabsInDB" style="background-color: rgb(227, 218, 130); width: 100%;">
+    <table style="width: 100%;">
+        <tr>
+           
+            <td>
+                <h2 style="color: rgb(2, 2, 2); font-style: italic;">{{cab.cityName}}</h2><hr />
+                <div>Cab Id : {{cab.cabId}}</div>
+                <div>Cab Type: {{cab.carType}}</div>
+                <div>Per Km Rate: {{cab.perKmRate}}</div>
+                <div>City Name: {{cab.cityName}}</div>
+
+            </td>
+        </tr>
+    </table>
+            
+
+
+<!-- <div class="bg-img">
+<table>
+    <tr>
+        <td>
+            City Name
+            
+            <select #cityName (change)="getCabsByCityName(cityName.value)">
+                <option value="" disabled selected>Load All Cabs</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+        </td>
+
+        <td>
+            <input type="text"#searchId>
+            <button (click)="getCabById(searchId.value)"> Search Cab</button>
+            
+            
+
+
+
+        </td>
+    </tr>
+</table>
+
+<div *ngFor="let cab of allCabsInDB" style="background-color: rgb(247, 204, 148); width: 100%;">
+    <table style="width: 100%;">
+        <tr>
+           
+            <td>
+                <h2 style="color: rgb(2, 2, 2); font-style: italic;">{{cab.cityName}}</h2><hr />
+                <div>Cab Id : {{cab.cabId}}</div>
+                <div>Cab Type: {{cab.carType}}</div>
+                <div>Per Km Rate: {{cab.perKmRate}}</div>
+                <div>City Name: {{cab.cityName}}</div>
+
+            </td>
+        </tr>
+    </table>
+</div> -->
